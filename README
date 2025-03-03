@@ -52,6 +52,7 @@ This project uses:
 Run `npm run build` to create a production build in the `dist` folder.
 
 wsl -d ubuntu
+# run claude
 
 ## License
 
