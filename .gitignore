@@ -29,12 +29,6 @@ pnpm-debug.log*
 lerna-debug.log*
 
 # Assets
-src/assets/images/*
-src/assets/sprites/*
-src/assets/audio/*
-!src/assets/images/.gitkeep
-!src/assets/sprites/.gitkeep
-!src/assets/audio/.gitkeep
 /public/assets/placeholder/
 
 # Editor
