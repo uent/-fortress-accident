@@ -1,0 +1,58 @@
+# Fortress Simulator
+
+A browser-based colony simulation game using Phaser 3 game engine. Players manage a small colony, construct buildings, gather resources, and ensure the survival of their colonists.
+
+## Features
+
+- Top-down 2D view with sprite-based graphics
+- Resource gathering and management (food, wood, stone, metal)
+- Build and upgrade different types of buildings
+- Colonists with needs, stats and autonomous behaviors
+- Day/night cycle with time-based events
+- Camera controls for navigating the game world
+
+## Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/fortress_sim.git
+cd fortress_sim
+
+# Install dependencies
+npm install
+
+# Install canvas package (for placeholder assets)
+npm install canvas
+
+# Generate placeholder assets
+node src/assets/create_placeholders.js
+
+# Start development server
+npm start
+```
+
+## Controls
+
+- WASD or Arrow Keys: Move camera
+- Mouse Wheel: Zoom in/out
+- Left Click: Select units or buildings
+- Right Click: Command selected unit to move
+- B or H: Toggle house building mode
+- F: Toggle farm building mode 
+- W: Toggle workshop building mode
+
+## Development
+
+This project uses:
+- Phaser 3 for game engine
+- Webpack for bundling
+- Babel for transpiling
+- ESLint for linting
+
+Run `npm run build` to create a production build in the `dist` folder.
+
+wsl -d ubuntu
+
+## License
+
+MIT
